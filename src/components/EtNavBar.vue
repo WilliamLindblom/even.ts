@@ -29,7 +29,7 @@ import { Component, Vue } from 'vue-property-decorator';
 export default class EtNavBar extends Vue {
     private isMobileNavigation: boolean = false;
 
-    toggleMobileNavigation() {
+    private toggleMobileNavigation() {
         this.isMobileNavigation = !this.isMobileNavigation;
     }
 }
